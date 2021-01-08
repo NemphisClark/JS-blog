@@ -1,0 +1,33 @@
+{
+  "name": "js-native-blog",
+  "version": "1.0.0",
+  "description": "js-native-blog",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack serve --mode development --open"
+  },
+  "keywords": [
+    "js",
+    "blog",
+    "javascript",
+    "js",
+    "native"
+  ],
+  "author": "Imam Ibragimov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.0.0-beta.4",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
