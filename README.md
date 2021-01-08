@@ -1,2 +1,2 @@
 # JS-blog
-Simple JavaScript Blog
+Simple JavaScript native blog
